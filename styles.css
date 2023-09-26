@@ -1,0 +1,89 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+   /* background-image: url("background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; */
+  }
+  
+  header {
+    background-color: #3c74d4;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(logo.png); /* Thay thế tên tệp hình ảnh logo tại đây */
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    float: left;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 20px;
+  }
+  
+  nav ul li a:hover {
+    color: #867286;
+  }
+  
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  
+  .section.active {
+    display: block;
+  }
+  /* Màu sắc cho phần Home */
+#home-section {
+    background-color: #e8f0fe;
+    color: #333;
+  }
+  
+  /* Màu sắc cho phần About */
+  #about-section {
+    background-color: #f5e7c8;
+    color: #333;
+  }
+  
+  /* Màu sắc cho phần Projects */
+  #projects-section {
+    background-color: #d1e5d9;
+    color: #333;
+  }
+  
+  /* Màu sắc cho phần Contact */
+  #contact-section {
+    background-color: #f9e5ec;
+    color: #333;
+  }
